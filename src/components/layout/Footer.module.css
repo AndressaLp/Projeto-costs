@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    color: white;
+    padding: 3em;
+    align-items: center;
+}
+
+.social_list{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.social_list li:hover{
+    color: #ffbb33;
+}
+
+.social_list svg{
+    font-size: 1.5em;
+}
+
+.copy{
+    margin-top: 2em;
+}
+
+.copy span{
+    color: #ffbb33;
+}
